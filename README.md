@@ -1,2 +1,3 @@
 # got_sentiment
-got sentiment analysis Dash app
+Game of Thrones sentiment analysis Dash app
+*** Not for software use ***
