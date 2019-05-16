@@ -21,10 +21,13 @@ The code in its current state is set to run locally.
 
 # Cloning Instructions
 # Prerequesites:
-- Have Python 3.6, PIP, and virtualenv install:
-# When Prerequesites are checked off:
+- Have Python 3.6, PIP, and virtualenv installed.
+
+# Getting Started:
 - Clone the repo
 - Run 'pip install -r requirements.txt' in order to install dependencies
+- Put in mapbox API key & twitter API keys into the 'got_sentiment_dash_app.py'
+
 # Running the server
 - In the command line run 'python got_sentiment_dash_app.py'
 - It should start the server and run the app on 'localhost' port:8050.
