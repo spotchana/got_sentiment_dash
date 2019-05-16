@@ -37,8 +37,9 @@ The code in its current state is set to run locally.
 - Additionally, Vader Sentiment is applied at this step of the stream, and the compound score is inserted into its
   own field. 
   
-# Alternative to data collection
+# (Alternative to data collection)
 - Download the sqlite DB with data collected from the airing of the episode to about 3 hours later via this link:     https://www.dropbox.com/s/zyzyrd4xpt0pdn0/twitter.DB?dl=1
+- Make sure this 'twitter.DB' file is in the same directory as the 'got_sentiment_dash_app.py' script.
 
 # Running the server
 - Before this step can happen, the previous steps must occur, since it will require a connection to the DB, an error
