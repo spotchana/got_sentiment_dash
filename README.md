@@ -16,13 +16,15 @@ The code in its current state is set to run locally.
 - The sentiment over time chart has a drop down menu in order to select various characters/events for which you wish to
   view the results for.
   - Interpretting the results: The scores range from -1 (most negative) to +1(most positive).
-- The map, is interactive and plots the locations of each tweets.
+- The map, is interactive and plots the locations of each tweets based on longitude and latitude.
 
 ![dash_app](https://user-images.githubusercontent.com/22856033/57848990-d47d5600-779f-11e9-9c7f-a98826f849da.gif)
 
 # Cloning Instructions
 # Prerequesites:
-- Have Python 3.6, PIP, and virtualenv installed.
+- Have Python 3.6
+- PIP
+- virtualenv installed, and activated.
 
 # Getting Started:
 - Clone the repo.
