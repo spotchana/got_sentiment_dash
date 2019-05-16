@@ -33,7 +33,7 @@ The code in its current state is set to run locally.
 - Put in twitter API keys into the 'got_stream_scrapper.py' file.
 
 # Data collection
-- To build the database & collect the data needed for app run the file 'got_stream_scrapper.py' file.
+- To build the database & collect the data needed for app, run the script 'got_stream_scrapper.py'.
 - This will construct the table with the necessary fields and automatically connect to twitter's stream and parse 
   for any tweet with '#gameofthrones'.
 - The tweets will then get parsed for other fields like language, longitude, and latitude as well.
