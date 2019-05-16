@@ -32,7 +32,7 @@ The code in its current state is set to run locally.
 - Put in mapbox API key into the 'got_sentiment_dash_app.py' file.
 - Put in twitter API keys into the 'got_stream_scrapper.py' file.
 
-# Data collection
+# Data collection:
 - To build the database & collect the data needed for app, run the script 'got_stream_scrapper.py'.
 - This will construct the table with the necessary fields and automatically connect to twitter's stream and parse 
   for any tweet with '#gameofthrones'.
@@ -44,7 +44,7 @@ The code in its current state is set to run locally.
 - Download the sqlite DB with data collected from the airing of the episode to about 3 hours later via this link:     https://www.dropbox.com/s/zyzyrd4xpt0pdn0/twitter.DB?dl=1
 - Make sure this 'twitter.DB' file is in the same directory as the 'got_sentiment_dash_app.py' script.
 
-# Running the server
+# Running the server:
 - Before this step can happen, the previous steps must occur, since it will require a connection to the DB, an error
   will occur if a DB does not exist. 
 - In the command line run 'python got_sentiment_dash_app.py'.
