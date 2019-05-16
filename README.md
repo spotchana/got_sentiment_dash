@@ -17,3 +17,4 @@ The code in its current state is set to run locally.
   view the results for.
 - The map, is interactive and plots the locations of each tweets.
 
+![dash_app](https://user-images.githubusercontent.com/22856033/57848990-d47d5600-779f-11e9-9c7f-a98826f849da.gif)
