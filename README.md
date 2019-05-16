@@ -24,11 +24,22 @@ The code in its current state is set to run locally.
 - Have Python 3.6, PIP, and virtualenv installed.
 
 # Getting Started:
-- Clone the repo
-- Run 'pip install -r requirements.txt' in order to install dependencies
-- Put in mapbox API key & twitter API keys into the 'got_sentiment_dash_app.py'
+- Clone the repo.
+- Run 'pip install -r requirements.txt' in order to install dependencies.
+- Put in mapbox API key into the 'got_sentiment_dash_app.py' file.
+- Put in twitter API keys into the 'got_stream_scrapper.py' file.
+
+# Data collection
+- To build the database & collect the data needed for app run the file 'got_stream_scrapper.py' file.
+- This will construct the table with the necessary fields and automatically connect to twitter's stream and parse 
+  for any tweet with '#gameofthrones'.
+- The tweets will then get parsed for other fields like language, longitude, and latitude as well.
+- Additionally, Vader Sentiment is applied at this step of the stream, and the compound score is inserted into its
+  own field. 
 
 # Running the server
-- In the command line run 'python got_sentiment_dash_app.py'
+- Before this step can happen, the previous steps must occur, since it will require a connection to the DB, an error
+  will occur if a DB does not exist. 
+- In the command line run 'python got_sentiment_dash_app.py'.
 - It should start the server and run the app on 'localhost' port:8050.
-- Copy this link to your browser
+- Copy this link to your browser.
